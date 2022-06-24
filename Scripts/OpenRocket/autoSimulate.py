@@ -1,3 +1,13 @@
+# How to run:
+#	for configuring the mouse positions: 
+#		python autoSimulate.py config
+#	
+#	for running the auto clicker from start:
+#		python autoSimulate.py
+#
+#	for running the auto clicker for simulations after a file (non included):
+#		python autoSimulate.py 086_125_090
+
 import pyautogui, configparser
 import sys
 from time import sleep, time
